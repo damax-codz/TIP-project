@@ -1,0 +1,53 @@
+.full{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .fulla{
+     display: grid;
+     text-align: center;
+     width: 300px;
+     margin-top: 50px;
+ 
+ }
+ h3{
+     text-transform: capitalize;
+     font-size: 30px;
+     font-family: 'Fruktur', cursive;
+     margin: 0%;
+ }
+ #count{
+     font-size: 80px;
+     font-weight: bolder;
+     margin: 0px;
+ }
+ .but{
+     width: 120px;
+     height: 30px;
+     border-radius: 7px;
+     margin: 0%;
+     background-color: blue;
+     border-color: blue;
+     font-weight: bolder;
+     font-size: 17px;
+ }
+ .but:hover{
+     transition: 900ms;
+     box-shadow: 1px 1px 6px 2px rgb(102, 101, 101);
+   
+ }
+ .butt{
+     width: 100px;
+     height: 30px;
+     border-radius: 7px;
+     font-weight: bolder;
+     font-size: 17px;
+     color: blue;
+     background-color: black;
+ }
+ 
+ .butt:hover{
+     transition: 900ms;
+     box-shadow: 1px 1px 6px 2px rgb(102, 101, 101);
+
+}
